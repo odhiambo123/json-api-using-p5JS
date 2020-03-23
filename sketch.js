@@ -1,3 +1,4 @@
+//inspired by:
 // A2Z F17
 // Daniel Shiffman
 // http://shiffman.net/a2z
@@ -25,6 +26,7 @@ function search() {
   // URL for querying wikipedia
   let url = 'https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search='
           + '&search=' + term;
+  //url for diseases: https://raw.githubusercontent.com/odhiambo123/JSONFILES/master/diseases-1.json?token=ACDLQWURLHRI4ZWT2RFQM3S6QF6VS
 
   // Query the URL, set a callback
   // 'jsonp' is needed for security
